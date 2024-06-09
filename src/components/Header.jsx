@@ -16,7 +16,7 @@ const Header = () => {
         <ModeSwitch />
         <Link
           href={"/"}
-          className="font-bold text-2xl bg-amber-500 py-1 px-2 rounded"
+          className="font-bold text-2xl bg-amber-500 py-1 px-2 rounded text-black"
         >
           IMDb
         </Link>
