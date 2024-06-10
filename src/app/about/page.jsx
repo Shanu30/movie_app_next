@@ -1,5 +1,6 @@
 import React from "react";
-
+const API_KEY = process.env.NEXT_PUBLIC_API_KEY;
+console.log(API_KEY);
 const About = () => {
   return (
     <div className="space-y-6 px-6 max-w-5xl">
