@@ -3,7 +3,7 @@ const API_KEY = process.env.NEXT_PUBLIC_API_KEY;
 console.log(API_KEY);
 const About = () => {
   return (
-    <div className="space-y-6 px-6 max-w-5xl">
+    <div className="space-y-6 px-6 max-w-6xl m-auto">
       <h1 className="text-2xl text-amber-600 font-medium">About</h1>
       <p>
         Welcome to our movie database website! We are a team of passionate movie

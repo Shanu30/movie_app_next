@@ -7,7 +7,7 @@ import ModeSwitch from "./ModeSwitch";
 
 const Header = () => {
   return (
-    <div className="flex justify-between py-3 px-6 items-center">
+    <div className="flex justify-between py-3 px-6 items-center max-w-6xl m-auto">
       <div className="flex gap-4">
         <MenuItem title="home" address="/" Icon={AiFillHome} />
         <MenuItem title="about" address="/about" Icon={BsFillInfoCircleFill} />

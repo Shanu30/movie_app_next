@@ -14,7 +14,7 @@ const Card = ({ result }) => {
           alt="poster"
           width={500}
           height={300}
-          className="group-hover:opacity-70 transition-opacity duration-300"
+          className="rounded-t-lg group-hover:opacity-70 transition-opacity duration-300"
         ></Image>
         <div className="p-2">
           <p className="line-clamp-2 text-md">{result.overview}</p>

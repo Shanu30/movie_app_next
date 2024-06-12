@@ -8,7 +8,7 @@ const MoviePage = async ({ params }) => {
   );
   const movie = await res.json();
   return (
-    <div className="w-full">
+    <div className="max-w-6xl m-auto">
       <div className="p-4 md:pt-8 flex flex-col md:flex-row md:space-x-5 content-center">
         <Image
           src={`https://image.tmdb.org/t/p/original/${
