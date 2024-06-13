@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## IMDb clone
+This is a clone of [IMDb](https://imdb.100jsprojects.com/) (a Movie Database web application) built with Next.js and Tailwind CSS. The application allows users to search for movies, view a list of top-rated or trending movies, and find information about the website on the About page.
 
+## Features
+- Movie Search: Search for movies by title and view detailed information.
+- Top-Rated Movies: Browse a list of top-rated movies.
+- Filter Movies: Filter movies based on genres and ratings.
+- About Page: Learn more about the website and its creators.
+## Tech Stack
+- Next.js: A React framework for building fast and user-friendly web applications.
+- Tailwind CSS: A utility-first CSS framework for creating custom designs without writing custom CSS.
+- The Movie Database ([TMDb](https://www.themoviedb.org)) API: A third-party API used to fetch movie data.
 ## Getting Started
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-First, run the development server:
-
-```bash
+### Prerequisites
+- Node.js (v14 or higher)
+- npm (v6 or higher) or yarn (v1.22 or higher)
+## Installation
+### Clone the repository:
+git clone https://github.com/Shanu30/movie_app_next
+cd movie-app
+### Install dependencies:
+npm install
+### Create a .env.local file in the root directory and add your TMDb API key:
+API_KEY=your_tmdb_api_key
+## Running the Development Server
+### Start the development server:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to see the application in action.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
